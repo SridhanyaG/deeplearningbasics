@@ -29,7 +29,7 @@ Build cuda_12.1.r12.1/compiler.32688072_0
    c.NotebookApp.port = 8083
    15 jupyter notebook password
    16 nohup jupyter notebook --no-browser --port 8083
-```
+
 !pip install torch
 Collecting torch
   Using cached torch-2.3.1-cp311-cp311-manylinux1_x86_64.whl.metadata (26 kB)
@@ -114,3 +114,4 @@ if torch.cuda.is_available():
     print(f"CUDA Device Name: {torch.cuda.get_device_name(0)}")
 else:
     print("CUDA is not available. PyTorch was installed without CUDA support.")
+```
