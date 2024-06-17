@@ -114,4 +114,8 @@ if torch.cuda.is_available():
     print(f"CUDA Device Name: {torch.cuda.get_device_name(0)}")
 else:
     print("CUDA is not available. PyTorch was installed without CUDA support.")
+
+
+For Open CV with cuda support
+https://gist.github.com/minhhieutruong0705/8f0ec70c400420e0007c15c98510f133
 ```
