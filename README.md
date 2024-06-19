@@ -118,4 +118,5 @@ else:
 
 For Open CV with cuda support
 https://gist.github.com/minhhieutruong0705/8f0ec70c400420e0007c15c98510f133
+https://forum.opencv.org/t/can-i-use-opencv-python-with-gpu/8947/2
 ```
