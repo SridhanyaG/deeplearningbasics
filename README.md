@@ -119,4 +119,12 @@ else:
 For Open CV with cuda support
 https://gist.github.com/minhhieutruong0705/8f0ec70c400420e0007c15c98510f133
 https://forum.opencv.org/t/can-i-use-opencv-python-with-gpu/8947/2
+
+milvus db setup
+==============
+
+wget https://github.com/milvus-io/milvus/releases/download/v2.3.18/milvus-standalone-docker-compose.yml -O docker-compose.yml
+docker compose up -d
+For Attu
+docker run -p 8084:3000 -e HOST_URL=http://<milvus host>:8084 -e 
 ```
