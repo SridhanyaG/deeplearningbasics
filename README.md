@@ -126,5 +126,5 @@ milvus db setup
 wget https://github.com/milvus-io/milvus/releases/download/v2.3.18/milvus-standalone-docker-compose.yml -O docker-compose.yml
 docker compose up -d
 For Attu
-docker run -p 8084:3000 -e HOST_URL=http://<milvus host>:8084 -e 
+docker run -p 8084:3000 -e HOST_URL=http://10.113.8.40:8084 -e MILVUS_URL=<host> zilliz/attu:latest
 ```
