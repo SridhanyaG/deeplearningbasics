@@ -127,4 +127,27 @@ wget https://github.com/milvus-io/milvus/releases/download/v2.3.18/milvus-standa
 docker compose up -d
 For Attu
 docker run -p 8084:3000 -e HOST_URL=http://10.113.8.40:8084 -e MILVUS_URL=<host> zilliz/attu:latest
+
+To Enable autocomplete in jupyternotebook
+https://stackoverflow.com/questions/76893872/modulenotfounderror-no-module-named-notebook-base-when-installing-nbextension
+
+!pip3 install jupyter-tabnine
+!jupyter nbextension install --py jupyter_tabnine
+!jupyter nbextension enable --py jupyter_tabnine
+!jupyter serverextension enable --py jupyter_tabnine
+
+jupyter contrib nbextension install --user
+   85  pip install --upgrade notebook==6.4.12
+   86  pip uninstall traitlets
+   87  pip install traitlets==5.9.0
+   88  pip install --upgrade notebook==6.4.12 traitlets==5.9.0 jupyter jupyter_contrib_nbextensions
+   89  conda install -c conda-forge jupyter_contrib_nbextensions
+   90  conda install -c "conda-forge/label/cf201901" jupyter_contrib_nbextensions
+   91  conda install -c "conda-forge/label/cf202003" jupyter_contrib_nbextensions
+   92  jupyter nbextension enable codefolding/main
+   93  jupyter nbextension enable --py jupyter_tabnine
+   94  pip3 install jupyter-tabnine
+   95  upyter nbextension enable --py jupyter_tabnine
+   96  jupyter nbextension enable --py jupyter_tabnine
+   97  pip3 install jupyter-tabnine
 ```
