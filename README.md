@@ -10,6 +10,9 @@ sudo apt-get install lsof
     3  conda activate llm
     4  nvidia-smi
     5  conda install pytorch torchvision torchaudio cudatoolkit -c pytorch-nightly
+or
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu121
+conda install nvidia/label/cuda-12.0.0::cuda-toolkit
     6  nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2023 NVIDIA Corporation
