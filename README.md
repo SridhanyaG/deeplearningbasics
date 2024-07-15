@@ -6,7 +6,7 @@
 sudo apt-get install lsof
 
     1  conda info
-    2  conda create -n llm
+    2  conda create -n llm python=3.11
     3  conda activate llm
     4  nvidia-smi
     5  conda install pytorch torchvision torchaudio cudatoolkit -c pytorch-nightly
