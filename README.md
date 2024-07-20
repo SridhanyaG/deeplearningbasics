@@ -185,4 +185,6 @@ sudo cp /var/cuda-repo-debian11-12-2-local/cuda-*-keyring.gpg /usr/share/keyring
 sudo add-apt-repository contrib
 sudo apt-get update
 sudo apt-get -y install cuda
+
+export PATH=$PATH:/usr/local/cuda-12.2/bin
 ```
