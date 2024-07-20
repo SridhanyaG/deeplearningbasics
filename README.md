@@ -153,4 +153,27 @@ jupyter contrib nbextension install --user
    95  upyter nbextension enable --py jupyter_tabnine
    96  jupyter nbextension enable --py jupyter_tabnine
    97  pip3 install jupyter-tabnine
+
+base) sridhanya_ganapathi@sridhanya-neo4j:~/neo4j$ cat docker-compose.yml 
+version: '3.3'
+services:
+  neo4j:
+    image: neo4j:latest
+    restart: always
+    container_name: my_neo4j_container
+    ports:
+      - "8081:7474"  # Map container's 7474 (Neo4j web port) to host's 8084
+      - "8080:7687"  # Map container's 7687 (Bolt port) to host's 7687
+    environment:
+      NEO4J_AUTH: neo4j/password  # Set initial username and password
+      NEO4J_ACCEPT_LICENSE_AGREEMENT: "yes"
+      NEO4J_dbms_security_procedures_unrestricted: gds.*,apoc.*
+    volumes:
+      - ./conf:/conf
+      - ./data:/data
+      - ./import:/import
+      - ./logs:/logs
+      - ./plugins:/plugins
+
+https://gist.github.com/MihailCosmin/affa6b1b71b43787e9228c25fe15aeba
 ```
