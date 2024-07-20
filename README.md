@@ -4,9 +4,13 @@
 
 ```
 sudo apt-get install lsof
+sudo apt-get install -y poppler-utils
+sudo apt install python3
+sudo apt-get install docker-compose-plugin
+
 
     1  conda info
-    2  conda create -n llm python=3.11
+    2  conda create -n llm python=3.10
     3  conda activate llm
     4  nvidia-smi
     5  conda install pytorch torchvision torchaudio cudatoolkit -c pytorch-nightly
