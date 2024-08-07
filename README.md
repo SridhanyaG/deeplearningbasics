@@ -12,6 +12,23 @@ sudo apt-get install docker-compose-plugin
     1  conda info
     2  conda create -n llm python=3.11
     3  conda activate llm
+# export DRIVER_VERSION=535.183.01
+sudo apt update
+sudo apt --list upgradable
+sudo apt upgrade
+sudo apt autoremove nvidia* --purge
+sudo apt-get remove --purge '^nvidia-.*'
+sudo /usr/bin/nvidia-uninstall 
+nvida-smi
+nvcc
+sudo add-apt-repository contrib
+lscu|grep CPU
+lscpu|grep CPU
+sudo apt install linux-headers-amd64 
+sudo apt install nvidia-detect
+sudo apt install nvidia-driver linux-image-amd64
+#sudo /opt/deeplearning/install-driver.sh 
+ 
     4  nvidia-smi
     5  conda install pytorch torchvision torchaudio cudatoolkit -c pytorch-nightly
 or
