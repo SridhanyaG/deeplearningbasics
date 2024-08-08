@@ -208,4 +208,16 @@ sudo apt-get update
 sudo apt-get -y install cuda
 
 export PATH=$PATH:/usr/local/cuda-12.2/bin
+## For GPU Support
+sudo apt install -y nvidia-docker2
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+
+import os
+os.environ['USER_AGENT'] = 'myagent'
+
+
+
+
 ```
