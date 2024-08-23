@@ -217,6 +217,34 @@ sudo systemctl restart docker
 import os
 os.environ['USER_AGENT'] = 'myagent'
 
+289  sudo apt update
+
+  290  sudo apt --list upgradable
+
+  291  sudo apt upgrade
+
+  292  sudo apt autoremove nvidia* --purge
+
+  293  sudo /usr/bin/nvidia-uninstall 
+
+  294  clear
+
+  295  nvida-smi
+
+  296  nvcc
+
+  297  sudo add-apt-repository contrib
+
+  298  lscu|grep CPU
+
+  299  lscpu|grep CPU
+ 
+export DRIVER_VERSION=535.183.01
+ 
+ 
+sudo /opt/deeplearning/install-driver.sh
+ 
+
 
 
 
