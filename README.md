@@ -29,7 +29,10 @@ sudo apt install nvidia-detect
 sudo apt install nvidia-driver linux-image-amd64
 
 (llm) sridhanya_ganapathi_team_neustar@genai-gpu-sridhanya-two:~$ export PATH=/usr/local/cuda/bin:$PATH
-(llm) sridhanya_ganapathi_team_neustar@genai-gpu-sridhanya-two:~$ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+(llm) sridhanya_ganapathi_team_neustar@genai-gpu-sridhanya-two:~$  export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export LD_PRELOAD=/usr/local/cuda/lib64/libcudnn.so.9
+
+
 #sudo /opt/deeplearning/install-driver.sh 
  
     4  nvidia-smi
