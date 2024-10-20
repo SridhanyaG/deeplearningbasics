@@ -251,7 +251,58 @@ export DRIVER_VERSION=535.183.01
 sudo /opt/deeplearning/install-driver.sh
  
 
+https://discuss.huggingface.co/t/llama-2-named-entity-recognition/49462/3
+https://github.com/4AI/LS-LLaMA
+https://medium.com/@harsh.vardhan7695/fine-tuning-llama-2-using-lora-and-qlora-a-comprehensive-guide-fd2260f0aa5f
+https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/2e56046d2573c40438e94d90af574bb32b5dbc96/notebooks/community/model_garden/model_garden_pytorch_peft.ipynb#L32
+
+https://towardsdatascience.com/tagging-genes-and-proteins-with-biobert-c7b04fc6eb4f
+
+https://github.com/perkdrew/advanced-nlp/blob/master/BioBERT/ner/bionlp_tags.csv
+
+https://github.com/search?q=biobert+ner&type=code
+https://github.com/vedants03/Knowledge_Graph_Using_BioBERT/blob/main/biobert_ner/run_ner.py
+
+https://github.com/nlpie-research/Compact-Biomedical-Transformers/tree/main
+https://github.com/DLR-SC/repository-synergy/blob/115e48c37e659b144b2c3b89695483fd1d6dc788/data/readme_files/NVIDIA.DeepLearningExamples.md?plain=1#L6
+
+https://github.com/NVIDIA/DeepLearningExamples/blob/master/TensorFlow/LanguageModeling/BERT/notebooks/biobert_ner_tf_inference.ipynb
+
+https://www.kaggle.com/code/mohsinsial/training-medical-ner-using-spacy/input
+https://www.kaggle.com/code/rohitsingh9990/ner-training-using-spacy-ensemble
+
+https://github.com/MisterXY89/chat-doc/blob/7648a854b1576c353e4c4a90b547c820053c44d5/chat_doc/training/train.py#L11
+https://medium.com/@ndubisiprecious/clinical-biomedical-named-entity-recognition-nlp-using-scispacy-80fcfa1cf648
+
+******Imp*****
+https://nbviewer.org/urls/huggingface.co/Precious1/Clinical-Biomedical-Named-Entity-Recognition-Using-Scispacy/resolve/main/Clinical%20Biomedical%20Named%20Entity%20Recognition%20Using%C2%A0Scispacy.ipynb
+
+ !python -m spacy download en_ner_bc5cdr_md
+
+https://huggingface.co/kormilitzin/en_core_med7_lg
+
+https://kormilitzin.medium.com/med7-clinical-information-extraction-system-in-python-and-spacy-5e6f68ab1c68
+
+!pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_sm-0.5.1.tar.gz
+!pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_md-0.5.1.tar.gz
+!pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_ner_bc5cdr_md-0.5.1.tar.gz
 
 
+BC2GM
+BC4CHEMD
+BC5CDR-chem
+BC5CDR-disease
+JNLPBA
+linnaeus
+NCBI-disease
+s800
+
+devel.tsv
+test.tsv
+train_dev.tsv
+train.tsv
+
+https://github.com/sachink1729/Finetuning-Mistral-7B-Chat-Doctor-Huggingface-LoRA-PEFT/blob/main/mistral-finetuned%20(1).ipynb
+https://github.com/sachink1729/Finetuning-Mistral-7B-Chat-Doctor-Huggingface-LoRA-PEFT/blob/main/mistral-finetuned%20(1).ipynb
 
 ```
